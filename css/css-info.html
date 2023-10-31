@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        h1 {
+            transform: translateX(-100%);
+            animation: move 20s;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(-100%);
+            }
+            25% {
+                transform: translateX(100%);
+            }
+            50% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="font-size:100px; font-family:'Times New Roman', Times, serif;text-align:center; color:red; text-transform: uppercase;">
+            Sahyog College
+        </h1>
+    </div>
+    <div style="text-align:center; border-style:double; font-size:50px; color: red;background-color: orange">
+        <h4>
+            Name : Shivam Yadav
+        </h4>
+        <h5>
+            Age : 22
+        </h5>
+        <h6>
+            Course :BCA
+        </h6>
+    </div>
+</body>
+</html>
